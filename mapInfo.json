@@ -1,0 +1,69 @@
+{
+	"graphData" : [
+		{
+			"id": "src_1",
+			"source": true,
+			"edges": [
+				"node_1"
+			],
+			"passthrough": true,
+			"class_name": "level_one"
+		},
+		{
+			"id": "src_2",
+			"source" : true,
+			"edges": [
+				"node_5"
+			],
+			"passthrough": true,
+			"class_name": "level_two"
+		},
+		{
+			"id": "node_1",
+			"source" : false,
+			"edges": [
+				"src_1",
+				"node_2"
+			],
+			"passthrough": true
+		},
+		{
+			"id": "node_2",
+			"source" : false,
+			"edges": [
+				"node_1",
+				"node_3",
+				"node_5"
+				
+			],
+			"passthrough": true
+		},
+		{
+			"id": "node_3",
+			"source" : false,
+			"edges": [
+				"node_2",
+				"node_4"
+			],
+			"passthrough": true
+		},
+		{
+			"id": "node_4",
+			"source" : false,
+			"edges": [
+				"node_3"
+			],
+			"passthrough": true
+			
+		},
+		{
+			"id": "node_5",
+			"source" : false,
+			"edges": [
+				"node_2",
+				"src_2"
+			],
+			"passthrough": true
+		}		
+	]
+}

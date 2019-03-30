@@ -1,0 +1,69 @@
+.level_zero {
+	background-color: gray;
+}
+
+.level_one {
+	background-color: blue;
+}
+
+.level_two {
+	background-color: yellow;
+}
+
+.level_three {
+	background-color: red;
+}
+
+.closeable{
+	border: 4px dashed pink;
+}
+
+.closeable.closed {
+	border: 4px solid purple !important;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+
+}
+
+#src_1 {
+	background-color: blue !important;
+	top: 100px;
+	left: 100px;
+}
+
+#src_2 {
+	background-color: yellow !important;
+	top: 340px;
+	left: 340px;
+}
+
+#node_1 {
+	top: 100px;
+	left: 220px;
+}
+
+#node_2 {
+	top: 100px;
+	left: 340px;
+}
+
+#node_3 {
+	top: 100px;
+	left: 460px;
+}
+
+#node_4 {
+	top: 100px;
+	left: 580px;
+}
+
+#node_5 {
+	top: 220px;
+	left: 340px;
+}
+
+
